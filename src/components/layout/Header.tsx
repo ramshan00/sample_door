@@ -9,6 +9,7 @@ import { Menu, User } from 'lucide-react';
 const navLinks = [
   { href: '/dashboard', label: 'Dashboard' },
   { href: '/housing', label: 'Housing' },
+  { href: '/extract-profile', label: 'Extract Profile' },
   { href: '/add-user', label: 'Create Profile' },
 ];
 
