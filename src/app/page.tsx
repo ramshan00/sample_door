@@ -1,58 +1,90 @@
-import { Button } from '@/components/ui/button';
-import { DeraNextLogo } from '@/components/icons';
+
+"use client";
+import { motion, Variants } from "framer-motion";
+import ScrollDownButton from "@/components/ScrollButton";
+import { Button } from "@/components/ui/button";
 import Link from 'next/link';
-import Image from 'next/image';
-import placeholderImages from '@/lib/placeholder-images.json';
 
-export default function Home() {
-  const heroImage = placeholderImages.placeholderImages.find(p => p.id === 'hero-students');
+const buttonVariant: Variants = {
+  hover: {
+    scale: 1.05,
+    boxShadow: "0px 16px 40px rgba(5, 192, 224, 0.25)",
+  },
+  tap: {
+    scale: 0.97,
+  },
+};
 
+export default function HeroSection() {
   return (
     <div className="relative overflow-hidden">
-      <div className="absolute inset-0 bg-grid-pattern opacity-10 [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
-      <div className="container relative z-10 mx-auto px-4 py-20 md:py-32">
-        <div className="grid grid-cols-1 items-center gap-12 lg:grid-cols-2">
-          <div className="text-center lg:text-left">
-            <div className="mb-6 flex justify-center lg:justify-start">
-              <DeraNextLogo className="h-12 w-auto" />
-            </div>
-            <h1 className="font-headline text-4xl font-extrabold tracking-tighter text-transparent sm:text-5xl md:text-6xl lg:text-7xl bg-clip-text bg-gradient-to-b from-primary to-secondary">
-              Smarter Student Living
-            </h1>
-            <p className="mx-auto mt-6 max-w-2xl text-lg text-muted-foreground lg:mx-0">
-              Find your perfect roommate and ideal home with our AI-powered platform. Built for students in Pakistan, DeraNext makes finding your next 'dera' safe, transparent, and intelligent.
-            </p>
-            <div className="mt-10 flex flex-col items-center gap-4 sm:flex-row sm:justify-center lg:justify-start">
-              <Button asChild size="lg" className="w-full sm:w-auto">
-                <Link href="/signup">Get Started</Link>
-              </Button>
-              <Button asChild size="lg" variant="outline" className="w-full bg-transparent sm:w-auto">
-                <Link href="/login">Sign In</Link>
-              </Button>
-            </div>
-          </div>
-          <div className="relative">
-            {heroImage && (
-              <Image
-                src={heroImage.imageUrl}
-                alt={heroImage.description}
-                width={600}
-                height={400}
-                data-ai-hint={heroImage.imageHint}
-                className="rounded-xl shadow-2xl shadow-primary/20"
-                priority
-              />
-            )}
-            <div className="absolute -inset-2 -z-10 rounded-2xl bg-primary/20 blur-2xl"></div>
-          </div>
-        </div>
+    <div className="absolute inset-0 bg-grid-pattern opacity-10 [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
+    <section className="container relative z-10 mx-auto w-full min-h-[85vh] flex flex-col justify-center py-15 px-5 md:px-16 text-white gap-2">
+      {/* Hero Text */}
+      <div className="overflow-hidden ">
+        <motion.p
+          className="text-right text-5xl sm:text-6xl md:text-7xl font-bold hover:scale-95 transition-all duration-300 uppercase"
+          initial={{ y: "100%" }}
+          animate={{ y: 0 }}
+          transition={{ duration: 0.8, ease: "easeOut" }}
+        >
+          Live Smarter
+        </motion.p>
       </div>
-    </div>
-  );
-}
 
-function BgGrid() {
-  return (
-    <div className="absolute inset-0 -z-10 h-full w-full bg-background bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:24px_24px]"></div>
+      <div className="overflow-hidden">
+        <motion.p
+          className="text-right text-5xl sm:text-6xl md:text-7xl font-medium hover:scale-95 transition-all duration-300 uppercase"
+          initial={{ y: "100%" }}
+          animate={{ y: 0 }}
+          transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
+        >
+          We will handle your roommate{" "}
+          <span className="font-bold text-primary">hustle</span>
+        </motion.p>
+      </div>
+
+      {/* Subtext */}
+      <motion.div
+        className="text-lg sm:text-xl md:text-2xl lg:text-2xl text-muted-foreground text-right hover:scale-95 transition-all duration-300 mt-4"
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8, ease: "easeOut", delay: 0.6 }}
+      >
+        <p>No more endless scrolling. No more mismatched living.</p>
+        <p>
+         Our AI finds your perfect roommate and home checking profiles, scoring compatibility, and flagging red flags, so you get the right fit without stress.
+        </p>
+      </motion.div>
+
+      {/* CTA Button */}
+      <motion.div
+        className="flex justify-end mt-5"
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1.0, ease: "easeOut", delay: 0.8 }}
+      >
+        <Button asChild
+          className="font-semibold shadow-lg cursor-pointer bg-gradient-to-r from-primary to-secondary text-primary-foreground"
+          aria-label="Start Now"
+          size="lg"
+        >
+          <motion.div
+            whileHover="hover"
+            whileTap="tap"
+            variants={buttonVariant}
+          >
+            <Link href="/signup">
+              Get Started
+            </Link>
+          </motion.div>
+        </Button>
+      </motion.div>
+
+      {/* Scroll Button */}
+
+      <ScrollDownButton />
+    </section>
+    </div>
   );
 }
