@@ -1,0 +1,102 @@
+[
+  {
+    "listing_id": "H-001",
+    "city": "Islamabad",
+    "area": "G-11 Markaz",
+    "monthly_rent_PKR": 20000,
+    "rooms_available": 1,
+    "amenities": ["WiFi", "Attached Bath", "Kitchen Access"],
+    "image_url": "housing-1",
+    "description": "Single room available for a student in a shared apartment. Prime location near G-11 Markaz with all utilities accessible. Ideal for NUST or FAST students."
+  },
+  {
+    "listing_id": "H-002",
+    "city": "Lahore",
+    "area": "Model Town",
+    "monthly_rent_PKR": 35000,
+    "rooms_available": 2,
+    "amenities": ["WiFi", "Parking", "Security Guard", "Furnished"],
+    "image_url": "housing-2",
+    "description": "Two rooms available in a spacious house in Model Town. Fully furnished with a peaceful environment for studying. Suitable for LUMS or UCP students."
+  },
+  {
+    "listing_id": "H-003",
+    "city": "Karachi",
+    "area": "Gulshan-e-Iqbal",
+    "monthly_rent_PKR": 25000,
+    "rooms_available": 1,
+    "amenities": ["Standby Generator", "Filtered Water", "Attached Bath"],
+    "image_url": "housing-3",
+    "description": "A single room in a well-maintained apartment complex. Close to universities and markets. No load shedding issues due to standby generator."
+  },
+  {
+    "listing_id": "H-004",
+    "city": "Islamabad",
+    "area": "Sector I-8",
+    "monthly_rent_PKR": 22000,
+    "rooms_available": 1,
+    "amenities": ["WiFi", "Laundry", "Common Room"],
+    "image_url": "housing-4",
+    "description": "Hostel accommodation for a female student in I-8. Secure and friendly environment with all necessary amenities. Very close to public transport."
+  },
+  {
+    "listing_id": "H-005",
+    "city": "Lahore",
+    "area": "Johar Town",
+    "monthly_rent_PKR": 18000,
+    "rooms_available": 1,
+    "amenities": ["Kitchen Access", "Parking"],
+    "image_url": "housing-5",
+    "description": "Economical room for rent in a family-run guest house. Clean and simple. Perfect for students on a tight budget. Near Emporium Mall."
+  },
+  {
+    "listing_id": "H-006",
+    "city": "Karachi",
+    "area": "DHA Phase 6",
+    "monthly_rent_PKR": 45000,
+    "rooms_available": 2,
+    "amenities": ["AC", "WiFi", "Security", "Separate Entrance"],
+    "image_url": "housing-6",
+    "description": "Two-room portion available in a beautiful DHA house. Separate entrance ensures privacy. All modern amenities included. Ideal for IBA or CBM students."
+  },
+  {
+    "listing_id": "H-007",
+    "city": "Islamabad",
+    "area": "E-11/2",
+    "monthly_rent_PKR": 30000,
+    "rooms_available": 1,
+    "amenities": ["Furnished", "WiFi", "Parking", "Mountain View"],
+    "image_url": "housing-7",
+    "description": "Fully furnished room with a view of the Margalla Hills. Quiet and serene location perfect for studies. All bills included in the rent."
+  },
+  {
+    "listing_id": "H-008",
+    "city": "Lahore",
+    "area": "Wapda Town",
+    "monthly_rent_PKR": 20000,
+    "rooms_available": 1,
+    "amenities": ["Attached Bath", "WiFi"],
+    "image_url": "housing-8",
+    "description": "One room available for a student in a shared flat. Gated community with good security. Very reasonable rent for the area."
+  },
+  {
+    "listing_id": "H-009",
+    "city": "Karachi",
+    "area": "North Nazimabad",
+    "monthly_rent_PKR": 15000,
+    "rooms_available": 1,
+    "amenities": ["Kitchenette", "WiFi"],
+    "image_url": "housing-9",
+    "description": "A very cheap room with an attached kitchenette. Good for a single student who prefers to cook. This is a very low price, be careful."
+  },
+  {
+    "listing_id": "H-010",
+    "city": "Rawalpindi",
+    "area": "6th Road",
+    "monthly_rent_PKR": 17000,
+    "rooms_available": 1,
+    "amenities": ["Walking distance to Metro", "WiFi", "Security"],
+    "image_url": "housing-10",
+    "description": "Student hostel room near 6th Road metro station. Easy commute to Islamabad universities. All facilities available. Mess is optional."
+  }
+]

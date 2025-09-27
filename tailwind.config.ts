@@ -10,9 +10,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        body: ['Inter', 'sans-serif'],
-        headline: ['Inter', 'sans-serif'],
-        code: ['monospace'],
+        body: ['var(--font-inter)', 'sans-serif'],
+        headline: ['var(--font-inter)', 'sans-serif'],
       },
       colors: {
         background: 'hsl(var(--background))',
@@ -92,6 +91,16 @@ export default {
       animation: {
         'accordion-down': 'accordion-down 0.2s ease-out',
         'accordion-up': 'accordion-up 0.2s ease-out',
+      },
+      backgroundImage: {
+        'grid-pattern': 'linear-gradient(to right, hsl(var(--secondary) / 0.1) 1px, transparent 1px), linear-gradient(to bottom, hsl(var(--secondary) / 0.1) 1px, transparent 1px)',
+      },
+      backgroundSize: {
+        'grid-pattern': '2rem 2rem',
+      },
+      boxShadow: {
+        'glow-primary-soft': '0 0 8px hsl(var(--primary) / 0.3)',
+        'glow-primary-medium': '0 0 16px hsl(var(--primary) / 0.6)',
       },
     },
   },

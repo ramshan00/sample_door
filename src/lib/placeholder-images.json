@@ -1,3 +1,130 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero-students",
+      "description": "Happy students in a modern living space",
+      "imageUrl": "https://images.unsplash.com/photo-1680919838857-d54e011093d3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzdHVkZW50cyUyMGFwYXJ0bWVudHxlbnwwfHx8fDE3NTg5OTY1MDh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "students apartment"
+    },
+    {
+      "id": "avatar-1",
+      "description": "Profile picture of a male student",
+      "imageUrl": "https://images.unsplash.com/photo-1511551203524-9a24350a5771?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtYWxlJTIwc3R1ZGVudHxlbnwwfHx8fDE3NTg5NjczNjJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "male student"
+    },
+    {
+      "id": "avatar-2",
+      "description": "Profile picture of a female student",
+      "imageUrl": "https://images.unsplash.com/photo-1584012961499-2147c0b3cf0d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8ZmVtYWxlJTIwc3R1ZGVudHxlbnwwfHx8fDE3NTg5Nzc2OTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "female student"
+    },
+    {
+      "id": "avatar-3",
+      "description": "Profile picture of a student",
+      "imageUrl": "https://images.unsplash.com/photo-1517841905240-472988babdf9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxzdHVkZW50JTIwcG9ydHJhaXR8ZW58MHx8fHwxNzU4OTM2NjY1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "student portrait"
+    },
+    {
+      "id": "avatar-4",
+      "description": "Profile picture of a male student with glasses",
+      "imageUrl": "https://images.unsplash.com/photo-1624918479892-3e5df2910410?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxtYWxlJTIwc3R1ZGVudHxlbnwwfHx8fDE3NTg5NjczNjJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "male student"
+    },
+    {
+      "id": "avatar-5",
+      "description": "Profile picture of a female student smiling",
+      "imageUrl": "https://images.unsplash.com/photo-1522010265321-fd346cc64d80?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxmZW1hbGUlMjBzdHVkZW50fGVufDB8fHx8MTc1ODk3NzY5OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "female student"
+    },
+    {
+      "id": "avatar-6",
+      "description": "Profile picture of a student in a library",
+      "imageUrl": "https://images.unsplash.com/photo-1637068302763-a8284115e920?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8c3R1ZGVudCUyMGxpYnJhcnl8ZW58MHx8fHwxNzU4OTU0OTE0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "student library"
+    },
+    {
+      "id": "avatar-7",
+      "description": "Profile picture of a student outdoors",
+      "imageUrl": "https://images.unsplash.com/photo-1745558858213-c1bb66fc8fde?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxzdHVkZW50JTIwY2FtcHVzfGVufDB8fHx8MTc1ODk5NjUwOHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "student campus"
+    },
+    {
+      "id": "avatar-8",
+      "description": "Profile picture of a male student with a backpack",
+      "imageUrl": "https://images.unsplash.com/photo-1677594332295-affd04f83115?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxtYWxlJTIwc3R1ZGVudHxlbnwwfHx8fDE3NTg5NjczNjJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "male student"
+    },
+    {
+      "id": "avatar-9",
+      "description": "Profile picture of a female student with headphones",
+      "imageUrl": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxmZW1hbGUlMjBzdHVkZW50fGVufDB8fHx8MTc1ODk3NzY5OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "female student"
+    },
+    {
+      "id": "avatar-10",
+      "description": "Profile picture of a student studying",
+      "imageUrl": "https://images.unsplash.com/photo-1669146894279-509f5de45390?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxzdHVkZW50JTIwc3R1ZHlpbmd8ZW58MHx8fHwxNzU4OTcyNTMwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "student studying"
+    },
+    {
+      "id": "housing-1",
+      "description": "Modern apartment room",
+      "imageUrl": "https://images.unsplash.com/photo-1630703178129-26f0697164d5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxhcGFydG1lbnQlMjByb29tfGVufDB8fHx8MTc1ODk5MjA1MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "apartment room"
+    },
+    {
+      "id": "housing-2",
+      "description": "Cozy bedroom",
+      "imageUrl": "https://images.unsplash.com/photo-1703782498522-f9c2b9c1bc25?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb3p5JTIwYmVkcm9vbXxlbnwwfHx8fDE3NTg5NDA3Nzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cozy bedroom"
+    },
+    {
+      "id": "housing-3",
+      "description": "Apartment exterior",
+      "imageUrl": "https://images.unsplash.com/photo-1612637968894-660373e23b03?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhcGFydG1lbnQlMjBidWlsZGluZ3xlbnwwfHx8fDE3NTg5MTk3NTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "apartment building"
+    },
+    {
+      "id": "housing-4",
+      "description": "Shared living room",
+      "imageUrl": "https://images.unsplash.com/photo-1484101403633-562f891dc89a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxsaXZpbmclMjByb29tfGVufDB8fHx8MTc1ODkyMzk1OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "living room"
+    },
+    {
+      "id": "housing-5",
+      "description": "Student hostel room",
+      "imageUrl": "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxob3N0ZWwlMjByb29tfGVufDB8fHx8MTc1ODk1OTQ4NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "hostel room"
+    },
+    {
+      "id": "housing-6",
+      "description": "Kitchen in a shared apartment",
+      "imageUrl": "https://images.unsplash.com/photo-1603072819161-e864800276cd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxhcGFydG1lbnQlMjBraXRjaGVufGVufDB8fHx8MTc1ODk1NTEyMHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "apartment kitchen"
+    },
+    {
+      "id": "housing-7",
+      "description": "A well-lit study area in a room",
+      "imageUrl": "https://images.unsplash.com/photo-1617239098289-ad0ee436361e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxzdHVkeSUyMGRlc2t8ZW58MHx8fHwxNzU4OTQ1NjI1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "study desk"
+    },
+    {
+      "id": "housing-8",
+      "description": "Balcony view from an apartment",
+      "imageUrl": "https://images.unsplash.com/photo-1560448205-d82bf18b9bcf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxiYWxjb255JTIwdmlld3xlbnwwfHx8fDE3NTg5ODI5ODJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "balcony view"
+    },
+    {
+      "id": "housing-9",
+      "description": "A furnished room for rent",
+      "imageUrl": "https://images.unsplash.com/photo-1680503146454-0fe569cef4eb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxmdXJuaXNoZWQlMjByb29tfGVufDB8fHx8MTc1ODk4NDcxMHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "furnished room"
+    },
+    {
+      "id": "housing-10",
+      "description": "A modern building complex for students",
+      "imageUrl": "https://images.unsplash.com/photo-1599043627490-6725d0a01067?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxzdHVkZW50JTIwaG91c2luZ3xlbnwwfHx8fDE3NTg5MTEwMTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "student housing"
+    }
+  ]
 }
