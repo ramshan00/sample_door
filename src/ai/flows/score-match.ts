@@ -21,7 +21,7 @@ const ScoreMatchOutputSchema = z.object({
   compatibility_score: z.number().min(0).max(100).describe('A compatibility score from 0 to 100.'),
   summary: z.string().describe('A brief justification for the score.'),
 });
-export type ScoreMatchOutput = z-infer<typeof ScoreMatchOutputSchema>;
+export type ScoreMatchOutput = z.infer<typeof ScoreMatchOutputSchema>;
 
 export async function scoreMatch(input: ScoreMatchInput): Promise<ScoreMatchOutput> {
   return scoreMatchFlow(input);
