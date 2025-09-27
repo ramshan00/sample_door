@@ -9,7 +9,7 @@ import { Providers } from './providers';
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
 
 export const metadata: Metadata = {
-  title: 'Door Mate - Smarter Student Living',
+  title: 'Door Mate',
   description: 'An AI-powered platform for Pakistani students to find compatible roommates and housing.',
 };
 

@@ -4,8 +4,8 @@ export function Logo(props: SVGProps<SVGSVGElement>) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 220 50"
-      width="220"
+      viewBox="0 0 150 50"
+      width="150"
       height="50"
       {...props}
     >
@@ -15,17 +15,30 @@ export function Logo(props: SVGProps<SVGSVGElement>) {
           <stop offset="100%" style={{ stopColor: 'hsl(var(--secondary))' }} />
         </linearGradient>
       </defs>
-      <text
-        x="10"
-        y="35"
-        fontFamily="var(--font-headline), sans-serif"
-        fontSize="32"
-        fontWeight="bold"
-        fill="url(#logo-gradient)"
-        className="tracking-wide"
-      >
-        Door Mate
-      </text>
+      <g style={{ lineHeight: '1' }}>
+        <text
+          x="0"
+          y="25"
+          fontFamily="var(--font-headline), sans-serif"
+          fontSize="28"
+          fontWeight="bold"
+          fill="url(#logo-gradient)"
+          className="tracking-wide"
+        >
+          next.
+        </text>
+        <text
+          x="0"
+          y="40"
+          fontFamily="var(--font-body), sans-serif"
+          fontSize="10"
+          letterSpacing="2"
+          fill="hsl(var(--muted-foreground))"
+          textTransform="uppercase"
+        >
+          Door Mate
+        </text>
+      </g>
     </svg>
   );
 }
