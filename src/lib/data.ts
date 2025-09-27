@@ -39,3 +39,22 @@ export async function getListingById(id: string): Promise<Listing | undefined> {
 }
 
 export { getImageUrl, getImagePlaceholder };
+
+
+// Client-side data fetching functions
+export const dataClient = {
+    getProfiles: async (): Promise<Profile[]> => {
+        return profiles as Profile[];
+    },
+    getProfileById: async (id: string): Promise<Profile | undefined> => {
+        const profiles = await dataClient.getProfiles();
+        return profiles.find(p => p.id === id);
+    },
+    getListings: async (): Promise<Listing[]> => {
+        return listings as Listing[];
+    },
+    getListingById: async (id: string): Promise<Listing | undefined> => {
+        const listings = await dataClient.getListings();
+        return listings.find(l => l.listing_id === id);
+    },
+};

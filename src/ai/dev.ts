@@ -7,3 +7,4 @@ import '@/ai/flows/flag-unsafe-listings.ts';
 import '@/ai/flows/parse-profile-text.ts';
 import '@/ai/flows/score-match.ts';
 import '@/ai/flows/detect-lifestyle-conflicts.ts';
+import '@/ai/flows/find-suitable-housing.ts';

@@ -10,6 +10,7 @@ const navLinks = [
   { href: '/dashboard', label: 'Dashboard' },
   { href: '/housing', label: 'Housing' },
   { href: '/extract-profile', label: 'Extract Profile' },
+  { href: '/find-housing', label: 'Find Housing' },
   { href: '/add-user', label: 'Create Profile' },
 ];
 
