@@ -24,7 +24,7 @@ export function Logo(props: SVGProps<SVGSVGElement>) {
         fill="url(#logo-gradient)"
         className="tracking-wide"
       >
-        door mate
+        Door Mate
       </text>
     </svg>
   );
