@@ -34,7 +34,7 @@ export function Logo(props: SVGProps<SVGSVGElement>) {
           fontSize="10"
           letterSpacing="2"
           fill="hsl(var(--muted-foreground))"
-          textTransform="uppercase"
+          className="uppercase"
         >
           Door Mate
         </text>
