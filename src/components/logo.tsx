@@ -1,11 +1,11 @@
 import type { SVGProps } from 'react';
 
-export function DeraNextLogo(props: SVGProps<SVGSVGElement>) {
+export function Logo(props: SVGProps<SVGSVGElement>) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 200 50"
-      width="200"
+      viewBox="0 0 220 50"
+      width="220"
       height="50"
       {...props}
     >
@@ -17,14 +17,14 @@ export function DeraNextLogo(props: SVGProps<SVGSVGElement>) {
       </defs>
       <text
         x="10"
-        y="30"
+        y="35"
         fontFamily="var(--font-headline), sans-serif"
         fontSize="32"
         fontWeight="bold"
         fill="url(#logo-gradient)"
         className="tracking-wide"
       >
-        DeraNext
+        door mate
       </text>
     </svg>
   );

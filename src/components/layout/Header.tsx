@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { DeraNextLogo } from '@/components/icons';
+import { Logo } from '@/components/logo';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 import { Menu, User } from 'lucide-react';
@@ -19,7 +19,7 @@ export default function Header() {
     <header className="sticky top-0 z-50 w-full glassmorphic">
       <div className="container mx-auto flex h-16 items-center justify-between px-4">
         <Link href="/" className="flex items-center gap-2">
-          <DeraNextLogo className="h-8 w-auto" />
+          <Logo className="h-8 w-auto" />
         </Link>
         <nav className="hidden items-center gap-6 md:flex">
           {navLinks.map((link) => (
@@ -51,7 +51,7 @@ export default function Header() {
             <SheetContent side="right" className="w-[300px] glassmorphic">
               <div className="flex flex-col p-6">
                 <Link href="/" className="mb-8">
-                  <DeraNextLogo className="h-8 w-auto" />
+                  <Logo className="h-8 w-auto" />
                 </Link>
                 <nav className="flex flex-col gap-4">
                   {navLinks.map((link) => (
