@@ -25,9 +25,9 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
       </head>
-      <body className={`${inter.variable} font-body antialiased`} suppressHydrationWarning>
+      <body className={`${inter.variable} font-body antialiased`}>
         <Providers>
-          <div className="relative flex min-h-screen flex-col">
+          <div className="relative flex min-h-screen flex-col" suppressHydrationWarning>
             <Header />
             <main className="flex-1">{children}</main>
             <Footer />
