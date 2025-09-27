@@ -39,7 +39,6 @@ Profile 1: {{{profile1}}}
 Profile 2: {{{profile2}}}
 
 Based on the two profiles, provide a concise and friendly explanation of why they would be a good match, focusing on shared interests, habits, and preferences.`,
-  model: googleAI.model('gemini-pro'),
 });
 
 const explainRoommateMatchFlow = ai.defineFlow(
