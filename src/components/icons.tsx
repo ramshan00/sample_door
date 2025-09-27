@@ -15,12 +15,17 @@ export function DeraNextLogo(props: SVGProps<SVGSVGElement>) {
           <stop offset="100%" style={{ stopColor: 'hsl(var(--secondary))' }} />
         </linearGradient>
       </defs>
-      <div className="leading-tight">
-            <h1 className="text-4xl font-bold museo tracking-wide">next.</h1>
-            <h2 className="text-[10px] mont tracking-[2px] text-gray-300">
-              DOOR MATE
-            </h2>
-          </div>
+      <text
+        x="10"
+        y="30"
+        fontFamily="var(--font-headline), sans-serif"
+        fontSize="32"
+        fontWeight="bold"
+        fill="url(#logo-gradient)"
+        className="tracking-wide"
+      >
+        DeraNext
+      </text>
     </svg>
   );
 }
