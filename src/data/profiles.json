@@ -1,6 +1,7 @@
 [
   {
     "id": "R-001",
+    "avatar": "avatar-1",
     "raw_profile_text": "Hostel seat available G-11, Islamabad. Budget no issue. Want Tidy banda, prefer Online classes, Quiet ok.",
     "city": "Islamabad",
     "area": "G-11",
@@ -13,6 +14,7 @@
   },
   {
     "id": "R-002",
+    "avatar": "avatar-2",
     "raw_profile_text": "Hostel seat available Gulshan-e-Iqbal, Karachi. Budget no issue. Want Messy banda, prefer Late-night study, Quiet ok.",
     "city": "Karachi",
     "area": "Gulshan-e-Iqbal",
@@ -457,6 +459,7 @@
   },
   {
     "id": "R-039",
+    "avatar": "avatar-3",
     "raw_profile_text": "Flat share in Gulberg, Lahore, 11k budget. No frequent guests. Food prefer veg food.",
     "city": "Lahore",
     "area": "Gulberg",
@@ -469,6 +472,7 @@
   },
   {
     "id": "R-040",
+    "avatar": "avatar-4",
     "raw_profile_text": "Flat share in G-10, Islamabad, 25k budget. No frequent guests. Food prefer veg food.",
     "city": "Islamabad",
     "area": "G-10",

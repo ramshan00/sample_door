@@ -20,7 +20,7 @@ export default function ProfileCard({ profile }: ProfileCardProps) {
         <div className="relative h-20 w-20 flex-shrink-0">
           <Image
             src={avatarUrl}
-            alt={profile.name}
+            alt={profile.name || 'Profile picture'}
             fill
             className="rounded-full border-2 border-secondary object-cover"
           />
