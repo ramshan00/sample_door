@@ -18,7 +18,7 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 w-full glassmorphic">
       <div className="container mx-auto flex h-16 items-center justify-between px-4">
-        <Link href="/" className="flex items-center gap-2">
+        <Link href="https://landing-page-virid-eight-87.vercel.app/home" className="flex items-center gap-2">
           <Logo className="h-8 w-auto" />
         </Link>
         <nav className="hidden items-center gap-6 md:flex">
